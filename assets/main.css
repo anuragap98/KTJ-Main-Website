@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+background: #2a2a2a;
+color: #2d2d2d;
+padding: 0;
+margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+#form {
+background: #fffdf5;
+margin: 10%;
+box-shadow: 3px 3px 20px 0px #000000b3;
+padding: 5%;
+border-radius: 5px;
+}
+form
+{
+margin-top:30px;
+text-align: center;
+}
+form div {
+margin: 15px;
+}
+
+form div label{
+font-size: 18px;
+}
+
+input{
+padding: 10px 1px 10px 10px;
+border: none;
+margin: 5px 0px 0px 0px;
+background: #606f7b33;
+border-radius: 5px;
+box-shadow: 2px 3px 8px 8px #dbdbdb1a;
+width: 65%;
+}
+input[type="radio"] {
+width:auto;
+}
+select{
+padding: 10px 1px 10px 10px;
+border: none;
+margin: 5px 0px 0px 0px;
+background: #606f7b33;
+border-radius: 5px;
+box-shadow: 2px 3px 8px 8px #dbdbdb1a;
+width: 65%;
+}
+.center {
+
+text-align: center;
+font-size: 35px;
+color: #4e4e4e;
+padding-bottom: 10px;
+}
+hr{
+background: white;
+color: white;
+border: 1px solid #dedede;
+}
+.gender{
+background: #dfe1dd;
+margin: 10px 17% 10px 17%;
+padding: 7px 7px 7px 7px;
+border-radius: 5px;
+}
+.btn{
+margin-top:30px;
+padding: 0;
+}
+.btn input{
+padding: 20px;
+border-radius: 0;
+background-color: #8de5f8;
+cursor: pointer;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #dfe1dd;
+    border: none;
+}
+
+.error {
+    background: #ffd78e;
+    padding: 12px;
+    margin: 10px;
+    border-left: 3px solid #f37800;
+    text-align: center;
+}
+
+.large-header {
+  position: relative;
+  width: 100%;
+  background: #333;
+  overflow-y: scroll;
+  background-size: cover;
+  background-position: center center;
+  z-index:1;
+  height:100vh;
+}
+#large-header {
+  background-image: url("https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg");
+}
+.main-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #f9f1e9;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+.demo-1 .main-title {
+  text-transform: uppercase;
+  font-size: 4.2em;
+  letter-spacing: 0.1em;
+}
+@media only screen and (max-width: 768px) {
+  .demo-1 .main-title {
+    font-size: 3em;
+  }
+}
+.main-title .thin {
+  font-weight: 200;
+}
+
+.topnav {
+  position: initial;
+  overflow: hidden;
+  background-color: transparent;
+  margin: auto auto auto auto;
+  top: 0;
+  padding: 10px 10%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 3% 10px 2%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #A6AEA780;
+  color: white;
+}
+
+table {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  margin: 25px;
+}
+
+iframe{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+}
+
+@media screen and (max-width: 780px){
+  body{
+  /*         background: lightblue; */
+  }
+  form{
+    text-align: center;
+  }
+  input, select{
+    width:75%
+  }
+  .gender{
+    margin: 10px 11% 10px 11%
+  }
+  iframe
+  {
+    width: 90%;
+    left:5%
+  }
+}
+
+@media screen and (max-width: 480px) {
+body{
+/*         background: green; */
+}
+form{
+    text-align: center
+}
+#form {
+    margin: 5%;
+    padding: 2%;
+}
+input, select
+{
+    width: 80%
+}
+.gender{
+    margin: 10px 30px 10px 30px
+}
+}
