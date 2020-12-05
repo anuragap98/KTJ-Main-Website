@@ -1,9 +1,8 @@
-# Main_Website
-Login/Signup
-* Events
+# Main Website of Kshitij
+* Login/Signup Page
+* Events Page
 	* Genres
 		* (All events)
-* Workshop
-* Guest Lecture
-* Sponsors
-* In menu accomodations tab
+* Workshop Page
+* Guest Lecture Page
+* Sponsors Page
